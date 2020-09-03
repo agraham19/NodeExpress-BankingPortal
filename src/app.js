@@ -4,7 +4,7 @@ const express = require("express");
 
 const app = express();
 
-app.set(Path.join());
+app.set(path.join());
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
